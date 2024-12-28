@@ -1,18 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4f722d8-d1b7-4f87-b197-3172a9b8192d" name="Changes" comment="" />
+    <list default="true" id="f4f722d8-d1b7-4f87-b197-3172a9b8192d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/main_Kr/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_Kr/migrations/0002_aboutus_is_visible.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_Kr/templase/kraft.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/віскі.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/сир.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Kraft_UA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Kraft_UA.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kraft_UA/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kraft_UA/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kraft_UA/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kraft_UA/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/gitignore" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2qnL1zn4nTvT8PzLhhgW4TODXgl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -21,12 +45,59 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Django Server.Kraft_UA.executor": "Debug",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "RunOnceActivity.git.unshallow": "true",
+    "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/i.tsisar/django_projects/Kraft_UA/main_Kr/templase",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\i.tsisar\django_projects\Kraft_UA\main_Kr\templase" />
+      <recent name="C:\Users\i.tsisar\django_projects\Kraft_UA\media" />
+      <recent name="C:\Users\i.tsisar\django_projects\Kraft_UA\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\i.tsisar\django_projects\Kraft_UA\templates" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Kraft_UA" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Kraft_UA" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="Kraft_UA.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -43,11 +114,39 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1735293182197</updated>
-      <workItem from="1735293183119" duration="10000" />
+      <workItem from="1735293183119" duration="1301000" />
+      <workItem from="1735294521627" duration="6453000" />
+      <workItem from="1735301034428" duration="1949000" />
+      <workItem from="1735303193642" duration="295000" />
+      <workItem from="1735303511070" duration="901000" />
+      <workItem from="1735304718729" duration="229000" />
+      <workItem from="1735359511316" duration="694000" />
+      <workItem from="1735360231540" duration="2917000" />
+      <workItem from="1735363265916" duration="5543000" />
+      <workItem from="1735371647677" duration="1201000" />
+      <workItem from="1735372872738" duration="269000" />
+      <workItem from="1735373170253" duration="2734000" />
+      <workItem from="1735376068418" duration="4040000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main_Kr/views.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main_Kr/views.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
