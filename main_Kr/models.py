@@ -7,8 +7,20 @@ class Category(models.Model):
     is_visible = models.BooleanField(default=True)
     sort = models.IntegerField(default=0)
 
+    def __iter__(self):
+        cheeses=self.cheeses.filter(is_visible=True)
+        for cheese in cheeses:
+            yield cheese
+
+    def __iter__(self):
+        beverages=self.beverages.filter(is_visible=True)
+        for beverage in beverages:
+            yield beverage
+
+
     class Meta:
         ordering = ('sort','name')
+
 
     def __str__(self):
         return self.name
@@ -41,6 +53,8 @@ class Cheese(models.Model):
     category = models.ForeignKey(Category, on_delete=models.CASCADE, related_name='cheeses')
     sort = models.IntegerField(default=0)
 
+
+
     class Meta:
         ordering = ('sort','name')
 
@@ -58,6 +72,7 @@ class Contact(models.Model):
     phone = models.CharField(max_length=15, blank=True, null=True)
     message = models.TextField()
     created_at = models.DateTimeField(auto_now_add=True)
+
 
     def __str__(self):
         return f"Contact from {self.name} ({self.email}) on {self.created_at}"

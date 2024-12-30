@@ -5,16 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4f722d8-d1b7-4f87-b197-3172a9b8192d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/main_Kr/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main_Kr/migrations/0002_aboutus_is_visible.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main_Kr/templase/kraft.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/віскі.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/сир.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Kraft_UA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Kraft_UA.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_Kr/migrations/0003_alter_category_options.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_Kr/templates/product.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Kraft_UA/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kraft_UA/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Kraft_UA/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kraft_UA/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/about_us/сир.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/media/images/about_us/сир.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/beverages/віскі.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/media/images/beverages/віскі.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cheeses/сир.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/media/images/cheeses/сир.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_Kr/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_Kr/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_Kr/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_Kr/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/віскі.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/сир.jpeg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -38,29 +42,32 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2qnL1zn4nTvT8PzLhhgW4TODXgl" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Django Server.Kraft_UA.executor": "Debug",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/i.tsisar/django_projects/Kraft_UA/main_Kr/templase",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Django Server.Kraft_UA.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR_AND_PREVIEW&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/i.tsisar/django_projects/Kraft_UA/main_Kr/templase&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\i.tsisar\django_projects\Kraft_UA\main_Kr\templase" />
@@ -68,6 +75,8 @@
       <recent name="C:\Users\i.tsisar\django_projects\Kraft_UA\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\i.tsisar\django_projects\Kraft_UA\main_Kr" />
+      <recent name="C:\Users\i.tsisar\django_projects\Kraft_UA\media" />
       <recent name="C:\Users\i.tsisar\django_projects\Kraft_UA\templates" />
     </key>
   </component>
@@ -126,27 +135,13 @@
       <workItem from="1735371647677" duration="1201000" />
       <workItem from="1735372872738" duration="269000" />
       <workItem from="1735373170253" duration="2734000" />
-      <workItem from="1735376068418" duration="4040000" />
+      <workItem from="1735376068418" duration="10223000" />
+      <workItem from="1735544679110" duration="7862000" />
+      <workItem from="1735560643534" duration="1823000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main_Kr/views.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main_Kr/views.py</url>
-          <line>13</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

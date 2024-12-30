@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Products</title>
+</head>
+<body>
+    <h1>Categories and Beverages</h1>
+
+    {% for category in categories %}
+        <div>
+            <h2>{{ category.name }}</h2>
+
+            {% for beverage in category.beverages.all %}
+                <p>{{ beverage.name }} - {{ beverage.volume }} ml - ${{ beverage.price }}</p>
+            {% empty %}
+                <p>No beverages available in this category.</p>
+            {% endfor %}
+        </div>
+    {% empty %}
+        <p>No categories available.</p>
+    {% endfor %}
+</body>
+</html>
+
